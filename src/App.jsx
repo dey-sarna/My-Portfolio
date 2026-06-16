@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import profilePic from "./assets/Picture.jpeg";
 
 const SKILLS = {
   Languages: ["C", "C++", "JavaScript", "HTML", "CSS"],
@@ -275,7 +276,7 @@ I believe great software is measured not by the amount of code written, but by t
 
           <div className="flex flex-col items-center gap-6">
             <img
-              src="/Picture.jpeg"
+              src={profilePic}
               alt="Sarna Dey"
               className="w-52 h-52 rounded-2xl object-cover border-4 border-emerald-500 shadow-2xl shadow-black/40"
             />
